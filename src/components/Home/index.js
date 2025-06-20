@@ -18,12 +18,12 @@ const Home = () => {
     }
 
     useEffect(() => {
-        const timer = setInterval(() => {
-            setTimeLeft(getTimeRemaining());
+        const interval = setInterval(() => {
+            getTimeRemaining();
         }, 1000);
 
-        return () => clearInterval(timer);
-    }, []);
+        return () => clearInterval(interval);
+    }, [getTimeRemaining]); 
 
     return (
         <div >
