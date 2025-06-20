@@ -4,7 +4,7 @@ This is a beautifully crafted wedding invitation website for **Ritesh & Joya**, 
 
 ## 🌐 Live Preview
 
-> Deployed on  [Netlify](https://www.netlify.com/)
+> Deployed on  [Vercel](https://wedding-invitation-five-jade.vercel.app/)
 
 ---
 
