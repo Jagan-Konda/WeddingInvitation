@@ -25,7 +25,7 @@ const Footer = () => {
                 <a href="#schedules">SCHEDULES</a>
                 <a href="#rsvp">RSVP</a>
                 <a href="#gallery">GALLERY</a>
-                <a style={{ cursor: 'not-allowed' }} aria-disabled="true">GIFT REGISTRY</a>
+                <a href="#" style={{ cursor: 'not-allowed' }} aria-disabled="true">GIFT REGISTRY</a>
             </div>
         </div>
     );

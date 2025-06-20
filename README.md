@@ -12,7 +12,6 @@ This is a beautifully crafted wedding invitation website for **Ritesh & Joya**, 
 
 - **Frontend**: React.js (Create React App)
 - **Styling**: Custom CSS 
-- **Responsive Design**: Optimized for extra-large screens with media queries support for tablets and mobiles
 - **Image Hosting**: Cloudinary (for floral frames, couple photos, etc.)
 
 ---
@@ -25,7 +24,7 @@ This is a beautifully crafted wedding invitation website for **Ritesh & Joya**, 
 - 📝 **RSVP Form**: Guests can submit attendance and other details.
 - 🗺️ **When & Where Section**: Clear details of venue and date with embedded map.
 - 📖 **Photo Album**: Showcase of couple’s journey in an album-style gallery.
-- 📱 **Responsive Design**: Mobile and tablet compatibility with custom media queries.
+
 
 ---
 

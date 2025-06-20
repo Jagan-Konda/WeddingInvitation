@@ -21,7 +21,7 @@ const Navbar = () => (
                         <a class="nav-link active" href="#gallery">GALLERY</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link disabled" aria-disabled="true">GIFT REGISTRY</a>
+                        <a href="#" class="nav-link disabled" aria-disabled="true">GIFT REGISTRY</a>
                     </li>
                 </ul>
             </div>
