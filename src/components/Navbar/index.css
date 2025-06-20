@@ -1,0 +1,25 @@
+.nav-container{
+    width: 100%;
+    align-self: flex-start;
+    padding-left: 5%;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    margin-bottom: 25px;
+}
+.nav-links-container{
+    width: 555px;
+}
+.logo {
+    width: 156px;
+    height: 46px;
+    font-family: "Sail";
+    font-weight: 400px;
+    font-size: 40px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #586245;
+    text-decoration: none;
+
+}

@@ -1,0 +1,88 @@
+.footer {
+    width: 1440px;
+    height: 382px;
+    background-color: #2D2420;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.footer-flower-img {
+    position: absolute;
+    top: 50%;
+    width: 150px;
+    transform: translateY(-50%);
+    opacity: 0.9;
+}
+
+.footer-flower-img.left {
+    left: 0;
+    margin-top: 100px;
+}
+
+.footer-flower-img.right {
+    right: 0;
+    top: 0;
+    transform: none;
+    margin-top: 10px;
+
+}
+
+.footer-message {
+    max-width: 700px;
+    margin: 0 auto 50px;
+    font-family: 'Jost Georgia', serif;
+    z-index: 2;
+    position: relative;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    position: relative;
+    z-index: 2;
+}
+
+.footer-links a {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-family: 'Jost Helvetica Neue', sans-serif;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #ffe9c6;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.4);
+}
+
+@media (max-width: 600px) {
+    .footer-flower-img {
+        display: none;
+    }
+
+    .footer-message {
+        font-size: 16px;
+        padding: 0 10px;
+    }
+
+    .footer-links {
+        flex-direction: column;
+        gap: 15px;
+    }
+}

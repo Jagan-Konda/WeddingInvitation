@@ -1,0 +1,124 @@
+.framed-couple-layout {
+  position: relative;
+  width: 1274px;
+  height: 848px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottom-corner-couple {
+  position: absolute;
+  bottom: 100px;
+  right: 120px;
+  width: 450px;
+  height: auto;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.flower-frame-img-layout {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.name-date-countdown-conatiner {
+  position: absolute;
+  top: 40%;
+  left: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 3;
+
+}
+
+.countdown-inside-left {
+  display: flex;
+  gap: 25px;
+  font-family: 'Jost', sans-serif;
+  font-weight: bold;
+  color: #2c3e2f;
+  font-size: 14px;
+  padding: 8px 12px;
+  border-radius: 8px;
+}
+
+.countdown-inside-left span {
+  color: #586245;
+  font-family: Sail;
+  font-weight: 400;
+  font-size: 62px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.card-bride-names {
+  font-family: 'Sail', cursive;
+  font-weight: 400;
+  font-size: 62px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #000000;
+}
+
+.card-date {
+  font-family: Jost;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #5C5C5C;
+}
+
+.card-flower-image {
+  width: 140px;
+  height: 49px;
+}
+
+
+.name {
+  width: 309px;
+  height: 55px;
+  font-family: Sail;
+  font-weight: 400px;
+  font-size: 48px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #000000;
+}
+
+.speech {
+  width: 353px;
+  height: 87px;
+  font-family: Jost;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: right;
+  color: #5C5C5C;
+}
+
+.flower-frame {
+  width: 360px;
+  height: 360px;
+  background-image: url("https://res.cloudinary.com/dpzsoiz1l/image/upload/v1750340761/c34d526e2f8adbdeb9282f6767b590f848cdfdbc_ejkcba.png");
+  background-size: cover;
+
+}
+
+.couple-pic {
+  width: 302px;
+  height: 422px;
+}
+

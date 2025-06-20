@@ -1,0 +1,91 @@
+.gallery-wrapper {
+    padding: 80px 20px;
+    width: 1440px;
+    height: 819px;
+    background-color: #F1F3EE;
+    text-align: center;
+}
+
+.gallery-title {
+    font-family: 'Sail', cursive;
+    font-weight: 400;
+    font-size: 62px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 50px;
+    color: #000000;
+
+}
+
+.album-spread {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0;
+}
+
+.photo-frame {
+    background: white;
+    padding: 24px;
+    border-radius: 6px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    max-width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gallery-photo {
+    width: 100%;
+    height: 400px;
+    border-radius: 8px;
+    display: block;
+}
+
+.album-clip {
+    width: 30px;
+    height: 450px;
+    object-fit: contain;
+    margin: 0 -10px;
+    z-index: 1;
+}
+
+
+.gallery-wrapper {
+    padding: 80px 20px;
+    background-color: #F1F3EE;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.gallery-wrapper::before,
+.gallery-wrapper::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 250px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 0.3;
+    z-index: 0;
+    pointer-events: none;
+}
+
+.gallery-wrapper::before {
+    left: 0;
+    background-image: url('https://res.cloudinary.com/dpzsoiz1l/image/upload/v1750361406/Vector_zdxudr.png');
+    background-size: cover;
+}
+
+.gallery-wrapper::after {
+    right: 0;
+    background-image: url('https://res.cloudinary.com/dpzsoiz1l/image/upload/v1750361475/Group_2_sl3jah.png');
+    background-size: cover;
+}

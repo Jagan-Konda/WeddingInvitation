@@ -1,0 +1,36 @@
+.schedule-item-frame {
+    width: 360px;
+    height: 360px;
+    background-image: url("https://res.cloudinary.com/dpzsoiz1l/image/upload/v1750340761/c34d526e2f8adbdeb9282f6767b590f848cdfdbc_ejkcba.png");
+    background-size: cover;
+}
+
+.scheduled-event {
+    font-family: Sail;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #000000;
+}
+
+.scheduled-date {
+    font-family: Jost;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #5C5C5C;
+}
+
+.scheduled-time {
+    font-family: Jost;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #5C5C5C;
+}
