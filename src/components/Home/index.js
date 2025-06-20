@@ -19,14 +19,14 @@ const Home = () => {
 
     useEffect(() => {
         const interval = setInterval(() => {
-            getTimeRemaining();
+            setTimeLeft(getTimeRemaining());
         }, 1000);
 
         return () => clearInterval(interval);
-    }, [getTimeRemaining]); 
+    }, []);
 
     return (
-        <div >
+        <div>
             <div className="framed-couple-layout">
                 <img
                     src="https://res.cloudinary.com/dpzsoiz1l/image/upload/v1750350543/a6afcf80d7bff40a45ffa1939b2c2c6518108031_msekzf.png"
@@ -39,23 +39,32 @@ const Home = () => {
                     alt="flower frame"
                     className="flower-frame-img-layout"
                 />
-                <div className='name-date-countdown-conatiner'>
-                    <h1 className='card-bride-names'>Ritesh & Foya</h1>
-                    <p className='card-date'>Our Big Day is November 15,2025</p>
-                    <img src="https://res.cloudinary.com/dpzsoiz1l/image/upload/v1750391525/0035a24d9f02bcff8fe3642e2e6d15ea0a552b9c_dp4mlc.png" alt="date" className='card-flower-image' />
+
+                <div className="name-date-countdown-conatiner">
+                    <h1 className="card-bride-names">Ritesh & Foya</h1>
+                    <p className="card-date">Our Big Day is November 15, 2025</p>
+                    <img
+                        src="https://res.cloudinary.com/dpzsoiz1l/image/upload/v1750391525/0035a24d9f02bcff8fe3642e2e6d15ea0a552b9c_dp4mlc.png"
+                        alt="date"
+                        className="card-flower-image"
+                    />
 
                     <div className="countdown-inside-left">
-                        <div className='text-center'><span>{timeLeft.days}</span><br />Days</div>
-                        <div className='text-center'><span>{timeLeft.hours}</span><br />Hours</div>
-                        <div className='text-center'><span>{timeLeft.minutes}</span><br />Mins</div>
-                        <div className='text-center'><span>{timeLeft.seconds}</span><br />Secs</div>
+                        <div className="text-center">
+                            <span>{timeLeft.days}</span><br />Days
+                        </div>
+                        <div className="text-center">
+                            <span>{timeLeft.hours}</span><br />Hours
+                        </div>
+                        <div className="text-center">
+                            <span>{timeLeft.minutes}</span><br />Mins
+                        </div>
+                        <div className="text-center">
+                            <span>{timeLeft.seconds}</span><br />Secs
+                        </div>
                     </div>
                 </div>
             </div>
-
-
-
-
 
             <div className="d-flex justify-content-center align-items-center mb-5">
                 <div>
@@ -80,7 +89,7 @@ const Home = () => {
                     </p>
                 </div>
             </div>
-        </div >
+        </div>
     );
 };
 
