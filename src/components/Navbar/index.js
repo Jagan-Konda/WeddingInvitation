@@ -1,32 +1,43 @@
 import './index.css'
+
 const Navbar = () => (
-    <nav class="navbar navbar-expand-lg bg-body-tertiary nav-container">
-        <div class="container" >
-            <a class="navbar-brand" href="#home" className="logo">Wedding</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+  <nav className="navbar navbar-expand-lg bg-body-tertiary nav-container">
+    <div className="container">
+      <a className="navbar-brand logo" href="#home">Wedding</a>
+      <button
+        className="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span className="navbar-toggler-icon"></span>
+      </button>
+      <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul className="navbar-nav nav-links-container justify-content-between">
+          <li className="nav-item">
+            <a className="nav-link active" aria-current="page" href="#home">HOME</a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link active" href="#schedules">SCHEDULES</a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link active" href="#rsvp">RSVP</a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link active" href="#gallery">GALLERY</a>
+          </li>
+          <li className="nav-item">
+            <button className="nav-link btn btn-link disabled" aria-disabled="true" style={{ textDecoration: 'none' }}>
+              GIFT REGISTRY
             </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                <ul class="navbar-nav nav-links-container justify-content-between">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#home">HOME</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#schedules">SCHEDULES</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#rsvp">RSVP</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#gallery">GALLERY</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link disabled" aria-disabled="true">GIFT REGISTRY</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 )
 
 export default Navbar
